@@ -1,6 +1,5 @@
 ```rust
-#[const_trait]
-pub trait Defaulted {
+pub const trait Defaulted {
     fn defaulted() -> Self;
 }
 
